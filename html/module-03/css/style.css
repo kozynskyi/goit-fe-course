@@ -10,7 +10,7 @@ body{
 
 .wrapper {
     width: 900px;
-    margin: 0 auto; /* только для блочных элементов. это чтобы сделать весь наш блок по центру, еще это тоже самое что и написать 0 0 0 0 */
+    margin: 0 auto; 
   }
 
 li{
@@ -24,39 +24,51 @@ li{
 
 .nav-list{
     text-align: center;
+    font-size: 0;
 }
 
 .list-item{
-    display: inline-block;
+    display: inline-block;    
     margin: 0 120px 0 0;
+}
+.list-item-r{
+    margin-right: 0;
 }
 .nav-link{
     text-decoration: none;
     color: #626262;
-    font-size: 14px;
-    
+    font-size: 14px;    
+}
+.nav-link:hover{
+    color: #03a9f4
 }
 
-.nav-link-1{
-    color: #03a9f4;
+.article-list{
+    font-size: 0px;
 }
 
 .article-item{
     display: inline-block;
     width: 420px;
-    /* margin: 0 0 133px 0; */
+    font-size: 14px;
+    margin: 0 0 133px 0;
 }
 
 .article-item-r{
-    margin-left: 56px;
-    /* margin-right: 50px; */
+    margin-right: 60px;
     /* margin-right: calc(900px -420px * 2 - 12px); */
 }
 
+.article-item-bottom{
+    margin-bottom: 0px;
+}
 
+.article-image{
+    margin-bottom: 30px;
+}
 
 .article-headline{
-    margin: 30px 0 30px 0;
+    margin: 0 0 30px 0;
     color: #b4ad9e;
     font-family: 'Ubuntu', sans-serif;
     font-size: 14px;
@@ -70,26 +82,26 @@ li{
 }
 
 .article-text{
-    margin: 0 0 133px 0;
     color: #626262;
     font-size: 14px;
 }
 
-.article-text-b{
+/* .article-text-b{
     margin: 0 0 53px 0;
+} */
+.button{
+    padding: 53px 0 69px 0;
 }
 
-.button-link{
+button{
     color: #626262;
-    text-decoration: none;
-    display: block;
     width: 162px;
     height: 58px;
-    cursor: pointer;
-    border: 2px solid grey;
-    text-align: center;
-    line-height: 58px;
-    margin: auto;
-    margin-bottom: 69px;
+    outline: none; 
+    cursor: pointer; 
+    background-color: transparent; 
+    border: 2px solid grey; 
     font-size: 20px;
-}
+    display: block;
+    margin: auto;    
+  }
