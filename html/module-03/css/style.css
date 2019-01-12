@@ -90,7 +90,6 @@ li{
     margin: 0 0 53px 0;
 } */
 .button{
-    padding: 53px 0 69px 0;
 }
 
 button{
@@ -103,5 +102,7 @@ button{
     border: 2px solid grey; 
     font-size: 20px;
     display: block;
-    margin: auto;    
+    margin: auto; 
+    margin-top: 53px;
+    margin-bottom: 69px; 
   }
