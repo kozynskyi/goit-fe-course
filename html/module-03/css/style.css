@@ -35,6 +35,7 @@ li{
     margin-right: 0;
 }
 .nav-link{
+    display: block;
     text-decoration: none;
     color: #626262;
     font-size: 14px;    
